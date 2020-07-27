@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  todo-web-application:
+    image: avinash/avinash/profile-blog:0.0.2-SNAPSHOT
+    #build:
+      #context: .
+      #dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
