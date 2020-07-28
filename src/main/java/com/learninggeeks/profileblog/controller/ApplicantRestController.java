@@ -23,7 +23,7 @@ import com.learninggeeks.profileblog.entity.ApplicantSkills;
 import com.learninggeeks.profileblog.exception.ApplicantNotFoundException;
 import com.learninggeeks.profileblog.service.ApplicantService;
 
-@CrossOrigin(origins = "http://localhost:3000", maxAge = 3600)
+@CrossOrigin(origins = "http://ec2-3-129-92-143.us-east-2.compute.amazonaws.com:3000", maxAge = 3600)
 @RestController
 @RequestMapping("/api")
 public class ApplicantRestController {
